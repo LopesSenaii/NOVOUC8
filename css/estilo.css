@@ -1,0 +1,41 @@
+
+/* Mudando fonte de todos os itens do html */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Iniciando o estilo do header do documento */
+header img {
+    width: 100px;
+}
+
+/* menu mobile */
+#mobile-menu {
+    margin-top: 15px;
+    /* float: right; */
+    display: none;
+}
+#mobile-menu img{
+    width: 50px;
+}
+
+/* Ajustando o menu */
+header nav {
+    float: right;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+header nav ul li {
+    font-weight: bold;
+}
+
+/* Itens do Banner */
+#banner {
+    background-color: aqua;
+    padding: 50px;
+    
+}
